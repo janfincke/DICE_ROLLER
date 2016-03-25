@@ -1,2 +1,2 @@
 # DICE_ROLLER
-A simple Javascript dice roller web app
+A simple Javascript dice roller web app.
