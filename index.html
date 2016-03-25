@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      D&amp;D-style dice roller
+    </title>
+    <link rel="stylesheet" type="text/css" href="dice.css">
+  </head>
+  <body>
+    <script src="rollmachine.js">
+</script>
+    <h1>
+      Dice Roller
+    </h1>
+    <div id="logo">
+      <img src="dd_logo.jpg" width="436" height="125" alt="Logo">
+    </div>
+    <div id="container">
+      <div id="form">
+        <form name="object" method="get" id="object">
+          <input type="text" id="manydice" placeholder="Enter the # of die."><br>
+          <input type="text" id="onedice" placeholder="Enter the # of sides."><br>
+          + <input type="text" id="bonus" placeholder="Enter your modifier." maxlength="6"><br>
+          <br>
+          <input type="button" id="rollbutton" onclick="roll(this)" value="Roll!"> <input type="button" id="clearbutton" onclick="clean()" value="Clear">
+        </form>
+      </div>
+      <div id="buttons1">
+        <input type="button" id="roll2" onclick="roll2()" value="1d2"><br>
+        <input type="button" id="roll3" onclick="roll3()" value="1d3"><br>
+        <input type="button" id="roll4" onclick="roll4()" value="1d4"><br>
+      </div>
+      <div id="buttons2">
+        <input type="button" id="roll6" onclick="roll6()" value="1d6"><br>
+        <input type="button" id="roll10" onclick="roll10()" value="1d10"><br>
+        <input type="button" id="roll12" onclick="roll12()" value="1d12"><br>
+      </div>
+      <div id="buttons3">
+        <input type="button" id="roll20" onclick="roll20()" value="1d20"><br>
+        <input type="button" id="roll100" onclick="roll100()" value="1d100"><br>
+      </div>
+      <div id="result">
+        <br>
+      </div>
+      <div id="history"></div>
+    </div>
+  </body>
+</html>

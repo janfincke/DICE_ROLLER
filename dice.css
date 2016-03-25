@@ -1,0 +1,173 @@
+h1 {
+  position: fixed;
+  left: 450px;
+  top: 70px;
+  font-family: Arial;
+  float: left;
+  width: 170px;
+  height: 40px;
+}
+
+#rollbutton {
+	background-color:#44c767;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  width: 95px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#rollbutton:hover {
+	background-color:#71db6d;
+}
+
+#clearbutton {
+	background-color:#FF4A4A;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  width: 95px;
+  text-align: center;
+}
+
+#clearbutton:hover {
+	background-color:#FF6E6E;
+}
+
+#clearhistory {
+	background-color:#FF4A4A;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  width: 150px;
+  text-align: center;
+}
+
+#clearhistory:hover {
+	background-color:#FF6E6E;
+}
+
+#clearhistory:active {
+	position:relative;
+	top:1px;
+}
+
+#onedice {
+  width:260px;
+  margin-top: 5px;
+}
+
+#manydice {
+  width:260px;
+}
+
+#bonus {
+  margin-top: 5px;
+}
+
+#result {
+  border: 2px;
+  font-size: 45px;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  top: 350px;
+  text-align: center;  
+}
+
+#container {
+  margin: 30px;
+  float: left;
+  width: 900px;
+}
+
+#buttons1 {
+  position:fixed;
+  float: left;
+  width: 400px;
+  top: 150px;
+  left: 350px;  
+}
+
+#buttons2 {
+  position: fixed;
+  float: left;
+  width: 400px;
+  top: 150px;
+  left: 450px;  
+}
+
+#buttons3 {
+  position:fixed;
+  float: left;
+  width: 400px;
+  top: 150px;
+  left: 550px;  
+}
+
+#buttons1:hover, #buttons2:hover, #buttons3:hover {
+  background-color: #
+}
+
+#form {
+  float: left;
+  width: 270px;
+}
+
+#history {
+  position: fixed;
+  top: 400px;
+  width: 50px;
+  float:left;
+  font-size: 20px;
+}
+
+#roll2, #roll3, #roll4, #roll6, #roll10, #roll12, #roll20, #roll100 {
+background-color:#0f7fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:0px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;               
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:15px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin-top: 10px;
+  width: 84px;
+}
+
+#roll2:hover, #roll3:hover, #roll4:hover, #roll6:hover, #roll10:hover, #roll12:hover, #roll20:hover, #roll100:hover {
+background-color: #56A4FC;
+}
